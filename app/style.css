@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter";
+}
+
+main {
+    box-shadow: 1px 1px 8px gray;
+    height: 80vh;
+    width: 35%;
+    margin: auto;
+    margin-top: 15px;
+    position: relative;
+}
+
+main h1 {
+    text-align: center;
+    background-color: plum;
+    padding: 8px;
+    margin-bottom: 120px;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+main .money {
+    font-weight: bold;
+    font-size: 3.0em;
+}
+
+main button {
+    background-color: plum;
+    border: none;
+    padding: 10px;
+    box-shadow: 1px 1px 8px purple;
+    border-radius: 10px;
+    transition: all 0.3s;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+}
+
+main button:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+main .button2 {
+    background-color: plum;
+    border: none;
+    padding: 10px;
+    box-shadow: 1px 1px 8px purple;
+    border-radius: 10px;
+    transition: all 0.3s;
+    position: absolute;
+    bottom: 15px;
+    right: 495px;
+
+}
+
+main .button2:hover {
+    background-color: rgb(186, 36, 61);
+    color: white;
+    cursor: pointer;
+}
