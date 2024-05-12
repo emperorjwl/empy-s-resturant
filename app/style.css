@@ -71,6 +71,6 @@ main .button2 {
 
 main .button2:hover {
     background-color: rgb(186, 36, 61);
-    color: white;
+    color: pink;
     cursor: pointer;
 }
