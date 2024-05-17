@@ -11,7 +11,8 @@ export default function Page() {
   }
 
   function handleButtonClick2() {
-    update((prevNum) => Math.max(prevNum - 1000000, 0));
+    num -= 1000000;
+    update(num);
   }
 
   return (
@@ -21,7 +22,7 @@ export default function Page() {
       <p className="money">NGN {num}</p>
       <button onClick={handleButtonClick}>+</button>
       <button className="button2" onClick={handleButtonClick2}>
-        +
+        -
       </button>
     </main>
   );
