@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+
+main {
+    width: 320px;
+    height: 550px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 2px 2px 8px;
+    font-family: Fredoka;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+main .calcname {
+    text-align: center;
+    color: white;
+}
+
+main .res {
+    color: white;
+    text-align: right;
+    background-color: #333;
+    padding: 20px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    min-height: 60px;
+}
+
+button {
+    font-family: Fredoka;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+}
+
+main .buttons {
+    font-family: Fredoka;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+button.operator {
+    background-color: #ff9500;
+}
+
+button.operator:hover {
+    background-color: #ffab40;
+}
+
+button.equal {
+    background-color: #34c759;
+    grid-column: span 2;
+}
+
+button.equal:hover {
+    background-color: #5fd688;
+}
+
+button.remove {
+    background-color: red;
+    grid-column: span 2;
+}
+
+button.remove:hover {
+    background-color: #ff6f5e;
+}
+
+
+
+
+@media (max-width: 480px) {
+    main {
+        margin-top: 25%;
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        height: 60px;
+    }
+}
